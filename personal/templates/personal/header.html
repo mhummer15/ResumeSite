@@ -48,17 +48,20 @@
 		</div>
 	</nav>
 
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-3">
+					<div class="row">
+						<img src="{% static 'personal/img/myPhoto.jpeg' %}" class="responsive-img" style='max-height:100px;' alt="face">
+					</div>
+
+
+
 					Small colum: picture/location/skills
 				</div>
 				<div class="col-9">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis magna non nunc dapibus, eget tempor arcu tempus. Sed ultricies ligula mi, vel vulputate nisl bibendum non. Quisque pulvinar gravida euismod. Cras malesuada quis odio non pharetra. Integer volutpat nunc ac tristique interdum. Fusce libero eros, faucibus at ex vel, cursus placerat nunc. Fusce euismod pellentesque lectus, non euismod ex tempor id.
-
-Donec nibh nisi, sollicitudin sit amet diam eget, finibus eleifend ante. Fusce in diam tristique, aliquam nunc et, pulvinar enim. Nullam commodo tellus enim, ac imperdiet felis aliquet vitae. Curabitur nunc magna, aliquet sit amet pulvinar vel, ornare id quam. Donec et cursus eros. Sed vel consequat elit. Aenean et mollis eros, sed luctus lorem. Praesent blandit mattis nibh, vel ultricies nisi feugiat vitae. Maecenas ultricies molestie tincidunt. Fusce turpis nisl, rhoncus a scelerisque eget, venenatis in ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer finibus, ex eget sollicitudin pharetra, orci magna ultricies arcu, molestie dictum lacus felis in tellus. Sed vulputate placerat leo, id dapibus nisi varius at. Nulla erat ligula, fringilla accumsan velit ac, bibendum tristique massa. In dapibus consectetur velit, ut porttitor dolor interdum eu.
-
-Praesent aliquam tellus id nisi posuere, quis imperdiet augue commodo. In imperdiet mi eget ipsum egestas pulvinar. Donec vitae quam eget nunc molestie blandit iaculis non erat. Nunc convallis venenatis neque ac venenatis. Proin nec consequat velit, ut finibus magna. In vitae velit id ex semper rhoncus. Etiam laoreet orci odio, nec dapibus lectus placerat eget. Nullam risus ligula, semper tristique lacus in, egestas cursus metus. Suspendisse tortor est, lacinia accumsan neque sed, porta consequat urna. Fusce interdum interdum purus et vehicula. Nullam justo eros, convallis sit amet tellus ac, tempus porttitor libero. Suspendisse efficitur elit vitae lacus consectetur feugiat. Aliquam ligula enim, scelerisque nec libero nec, congue rhoncus urna. Aenean hendrerit ac eros sed malesuada. Integer et ante at sem tristique tempor nec vitae libero.
+					{% block content %}
+ 			   	{% endblock %}
 				</div>
 			</div>
 		</div>
